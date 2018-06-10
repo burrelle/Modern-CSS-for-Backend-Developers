@@ -12,7 +12,6 @@ a:hover {
 
 header {
     background-image: linear-gradient(to right, #a25b5b, #692e4c);
-    padding: 1em 2em;
 }
 
 header h1 {
@@ -47,4 +46,27 @@ nav > a {
     padding-right: 20px;
     text-transform: uppercase;
     color: rgba(225, 225, 225, .5);
+}
+
+.section {
+    padding: 30px;
+}
+
+.flex, .row {
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+}
+
+.box {
+    background: gray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
