@@ -24,7 +24,7 @@
         <div class="card-right">
             <h3 class="card-title"><a href="#">Testing Jargon</a></h3>
             <p>
-                There's no two ways about it: terminology in the testing wrold is incredibly overwhelming. 
+                There's no two ways about it: terminology in the testing world is incredibly overwhelming. 
                 Lets's fix that! Bit by bit, we'll break all these confusing concepts down as best we can.
             </p>
 
