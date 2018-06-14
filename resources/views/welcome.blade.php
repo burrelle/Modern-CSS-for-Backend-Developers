@@ -11,34 +11,58 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="flex items-center justify-center">
-    <div class="card flex rounded">
-        <!-- left -->
-        <div class="card-left flex flex-col justify-between rounded p-6 items-center text-center text-white">
-            <a href="#" class="card-skill color-inherit no-underline text-xs rounded-full py-2 px-6">PHP</a>
-            <img class="h-16 w-16" src="https://laracasts.com/images/series/circles/testing-vue.png">
-            <span class="card-difficulty text-xs">Intermediate Difficulty</span>
-        </div>
+<body class="container mx-auto">
+    <div class="border-b py-8">
+        <h1 class="mb-4 text-grey-dark text-sm font-bold tracking-wide uppercase">Instant Navigation</h1>
+        <nav class="bg-blue-lightest py-4 px-4 flex justify-between">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Mission</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
 
-        <!-- right -->
-        <div class="card-right flex flex-col text-grey-darker p-6">
-            <h3 class="card-title text-black font-light text-3xl mb-4">
-                <a href="#" class="color-inherit no-underline">Testing Jargon</a>
-            </h3>
-            <p class="flex-1">
-                There's no two ways about it: terminology in the testing world is incredibly overwhelming. Lets's fix that! Bit by bit, we'll
-                break all these confusing concepts down as best we can.
-            </p>
+    <div class="border-b py-8">
+        <h1 class="mb-4 text-grey-dark text-sm font-bold tracking-wide uppercase">Split Nav</h1>
+        <nav class="bg-blue-lightest py-4 px-4 flex justify-between">
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+            </div>
+            <div>
+                <a href="#">Mission</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </div>
 
-            <div class="card-meta flex text-sm">
-                <div class="flex items-center mr-4">
-                    <img class="h-3 w-3 mr-2" src="https://image.flaticon.com/icons/svg/182/182321.svg"> 5 Lessons
-                </div>
-                <div class="flex items-center mr-4">
-                    <img class="h-3 w-3 mr-2" src="https://image.flaticon.com/icons/svg/149/149313.svg"> 53:10 min
-                </div>
+    <div class="border-b py-8">
+        <h1 class="mb-4 text-grey-dark text-sm font-bold tracking-wide uppercase">Align Image with Text</h1>
+        <div class="flex items-center">
+            <img src="http://via.placeholder.com/350x150" class="mr-4">
+            <div>
+                <h3 class="mb-4">My Trip To...</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
             </div>
         </div>
+    </div>
+
+    <div class="border-b py-8">
+        <h1 class="mb-4 text-grey-dark text-sm font-bold tracking-wide uppercase">Perfectly Centered Text</h1>
+        <div class="bg-grey-light p-6 w-64 h-64 flex items-center justify-center">
+            <div class="">
+                <h3 class="mb-4">Flexbox is Amazing</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+        </div>
+
+    <div class="border-b py-8">
+        <h1 class="mb-4 text-grey-dark text-sm font-bold tracking-wide uppercase">Sticky Footer</h1>
+        <a href="/sticky" class="no-underline color-black">Sticky Footer</a>
     </div>
 </body>
 
